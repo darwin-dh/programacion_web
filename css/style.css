@@ -1,0 +1,41 @@
+/**Selectores universales**/
+*{
+   margin: 0; 
+   padding: 0;
+}
+/**Selector por etiquetas**/
+body{
+    background: rgba(167, 185, 202, 0.808);
+}
+h1{
+    color:blue;
+}
+/** selectores por clases **/
+.negro{
+    color: #000;
+}
+.rojo{
+    color: red;
+}
+.t-30{
+    font-size: 30px;
+}
+.t-20{
+    font-size: 20px;
+}
+.f-white{
+    background: #fff;
+}
+.f-black{
+    background: #000;
+}
+.p-5{
+    padding: 5px;
+}
+.m-t5{
+    margin-top: 5px;
+}
+/**Selector id**/
+#green{
+    color:green;
+}
