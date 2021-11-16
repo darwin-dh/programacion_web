@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,87,105,1) 46%, rgba(37,35,35,1) 100%);
+  /**  background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: center;
+    background-attachment: scroll;**/
+}
+.div{
+    color: #fff;
+    background: url('../img/imagen2.JPG') #000;
+    width: 200px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+ 
+}
+section{
+    background: url('../img/logo.JPG') #fff;
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.gradientes{
+    background: linear-gradient(90deg, rgb(30, 145, 194) 0%, rgb(114, 7, 105) 50%, rgba(84, 113, 121, 0.739) 100%);
+}
+.white{
+    color:#fff;
+    font-size: 50px;
+}
