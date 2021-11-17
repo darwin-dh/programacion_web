@@ -1,0 +1,36 @@
+@font-face {
+    font-family:"ligero";
+    src: url('../fonts/Roboto-Thin.ttf');
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url('../fonts/Roboto-Italic.ttf');
+}
+body{
+    font-family: Roboto-Bold;
+}
+h1{
+    font-family:ligero ;
+}
+blockquote{
+    font-family: Roboto-Italic;
+}
+.parr{
+    font-family: 'Oswald', sans-serif;
+}
+.fa-css3-alt{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background: rgb(19, 27, 141);
+    padding: 15px;
+    border-radius: 5px;
+}
+.fa-css3-alt:hover{
+    color:yellow;
+    background: rgb(126, 17, 17);
+    cursor: pointer;
+}
