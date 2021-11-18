@@ -1,7 +1,7 @@
 table thead th{
  
 }
-table tr:nth-child(2n+1){
+table tr:nth-child(2n+2){
    background: rgb(97, 105, 216); 
 }
 table , th , td{
