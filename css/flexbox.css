@@ -1,0 +1,51 @@
+.padre{
+    width: 1000px;
+    height: 255px;
+    background: rgba(30, 101, 231, 0.89);
+    display: flex;
+    justify-content: center;
+   
+
+}
+h2{
+    color: #fff;
+    padding: 20px;
+}
+/*selecto atributo*/
+div[class="hijo"]{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background: darkblue;
+ 
+}
+.padre2{
+    width: 600px;
+    height: 300px;
+    background: rgba(221, 218, 30, 0.89);
+    display: flex;
+    align-items: stretch;
+   
+}
+div[class="hijo2"]{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background: rgb(139, 74, 0);
+}
+.padre3{
+    width:1000px;
+    height: 300px;
+    background: rgba(30, 221, 87, 0.89);
+    display: flex;    
+    flex-direction: row-reverse;
+   
+}
+div[class="hijo3"]{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background: rgb(138, 51, 25);
+    
+
+}

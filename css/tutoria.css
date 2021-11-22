@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caja1{
+    width: 100%;
+    background: #2cd4d4;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+}
+.caja2{
+    width: 20%;
+    background: #879db1;
+    height: 800px;
+    padding: 20px 20px;
+    position: relative;
+    top:100px;
+}
+.caja3{
+    width: 60%;
+    background: #418AA0;
+    height: 840px;
+    position: absolute;
+    top: 100px;
+    left: 22%;
+}
+.caja4{
+    width: 200px;
+    background: #c4c4c4;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.caja5{
+    width: 200px;
+    float: right;
+    position: absolute;
+    left: 450px;
+    top: 64px;
+}
+
+.caja6{
+    width: 18%;
+    background: #879db1;
+    height: 800px;
+    position: fixed;
+    top: 100px;
+    left: 82%;
+}
+.caja6 .iconos{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 189px;
+    left: 17%;
+    font-size: 40px;
+}
+.fa-facebook-square{
+    color:rgb(40, 145, 216);
+}
+.fa-whatsapp{
+    color:rgb(33, 192, 33);
+}
+.fa-instagram{
+    color: rgb(177, 51, 19);
+}
