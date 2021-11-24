@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #eef5f9;
+}
+.dropdown{
+    background: #414755;
+
+ 
+    padding: 20px;
+
+}
