@@ -14,14 +14,104 @@ body{
     font-size: 16px;
     font-family: Roboto-Regular;
 }
-main{
-    width: 80%;
+.main{
+    width: 70%;
     margin: auto;
     max-width: 1300px;
 }
 header{
-    background: url('../img/fondo.jpg') #3c4043;
-    height: 600px;
+    background:linear-gradient(to right, rgb(1 0 6 /75%),rgb(1 0 6 /75%)), url('https://wp.w3layouts.com/digebiz/wp-content/themes/digebiz/assets/images/banner2.jpg') #3c4043;
+    max-height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*manera general a todas la tag (a) se pone los siguientes estilos*/
+a[href]{
+    text-decoration: none;
+    color: #fff;
+    display:inline-block;
+    border-radius:5px ;
+    text-align: center;
+}
+nav[class="menu"]{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    flex-wrap:wrap ;
+
+}
+.menu > .brand{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+.menu .brand .logo{
+    display: inline-block;
+    color:#1769ff;
+}
+a[href="#"]{
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-family:Roboto-Light ;
+    color: #d1d3d1;
+}
+.fa-search{
+    color: #fff;
+    margin-left:50px ;
+    margin-right: 50px;
+}
+a[class="btn"]{
+    background: #fff;
+    color:#1769ff;
+    padding: 15px;   
+    font-weight: bold;
+    width: 150px;
+}
+a[class="btn"]:hover{
+    background: #1769ff;
+    color: #fff;
+}
+/*header*/
+/*small*/
+small{
+    color: #1769ff;
+    font-weight: 600;
+}
+section[class="text-cont"]{
+    margin-top: 100px;
+}
+.text-cont h1{
+    color: #fff;
+    font-size: 100px;
+}
+.text-cont > a{
+    background: #0855e0;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 1rem;
+    width: 180px;
+    
+}
+div[class="brands"]{
+    background: #fff;   
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 70px;
+    border-radius: 5px;
+    box-shadow: -5px 7px 17px rgb(1 0 6 /75%);
+}
+.seccion-1{
+    margin-top:200px ;
+}
+figure{
+    margin: 0;
+}
+/*
+img[src]{
+    width: 90%;
+    margin: auto;
+}*/
