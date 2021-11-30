@@ -9,8 +9,12 @@
  */
  *{
    box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing:border-box;
  }
-
+a[href]{
+  text-decoration: none;
+}
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
