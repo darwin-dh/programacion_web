@@ -1,0 +1,39 @@
+header{
+    display: flex!important;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedor1{
+    width: 70%;
+ 
+}
+.contenedor2{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: url('https://demo.w3layouts.com/demos_new/template_demo/30-04-2020/sprystore-liberty-demo_Free/1528800197/web/assets/images/left3.jpg');
+}
+.contenedor2 .iconos{
+    width: 100%;
+    background: salmon;
+    height: 50px!important;
+
+}
+.contenedor2 .menu{
+    width: 100%;
+    position: fixed;
+    top: 51px;
+   
+}
+.contenedor2 .menu > a{
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.contenedor2 .menu > a:hover{
+    color:#ff7315;
+}
+.bg-dark{
+    background: #000!important;
+}

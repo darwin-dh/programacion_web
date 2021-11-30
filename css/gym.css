@@ -1,0 +1,43 @@
+body{
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenerdor{
+    width: 90%;
+    margin: auto;
+    max-width: 1300px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: url('https://demo.w3layouts.com/demos_new/template_demo/06-10-2018/gym_plus-demo_Free/1657143211/web/images/b1.jpg');
+    height: 600px;
+    background-size: cover;
+}
+
+.logo{
+    width: 60%;
+    font-size: 30px;
+}
+header nav{
+    width: 40%;
+    margin-top: 40px;
+}
+header nav a{
+    margin-left: 20px;
+    padding: 10px;
+}
+a{
+    color: #fff;
+}
+.textos{
+
+    margin-top: 200px;
+    color:#fff;
+    margin-left: 200px;
+    align-self: flex-end;
+    margin-bottom: 200px;
+}
